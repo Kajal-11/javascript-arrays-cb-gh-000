@@ -21,3 +21,17 @@ function destructivelyAddElementToEndOfArray(array, element){
   array.push(element);
   return array;
 }
+
+function accessElementInArray(array, index){
+  return array[index];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift();
+  return array;
+}
+
+function removeElementFromBeginningOfArray(array){
+  var array1 = array.splice(1);
+  return array1;
+}
